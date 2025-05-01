@@ -20,7 +20,7 @@ body {
   padding: 18px 100px 100px 100px;
   background-color: #1f2937;
   gap: 85px;
-  flex: auto;
+  
 }
 
 .header {
@@ -75,4 +75,106 @@ button {
   border: none;
   color: white;
   font-weight: bold;
+}
+
+/*Block 2 code below*/
+
+.block2 {
+  margin-top: 50px;
+}
+
+.block2 h3 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.cards {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.cards-info {
+  height: 150px;
+  width: 150px;
+
+}
+
+.cards-info img {
+  height: 150px;
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.cards-info p {
+  font-size: 18px;
+  color: #1f2937;
+}
+
+/*Block 3 code below*/
+
+.block3 {
+  margin-top: 200px;
+  background-color: #E5E7EB;
+  padding: 100px 50px;
+}
+
+.quotation {
+  
+}
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.author {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+  margin: 0 auto;
+}
+
+/*Block 4 code below*/
+
+.block4 {
+  padding: 100px 100px;
+}
+.action {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3882f6;
+  color: white;
+  padding: 50px 50px;
+  border-radius: 8px;
+}
+
+.action div h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.action div p {
+  font-size: 18px;
+}
+
+.action button {
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid white;
+}
+
+
+.footer {
+  color: #E5E7EB;
+  background-color: #1f2937;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 50px 50px;
 }
